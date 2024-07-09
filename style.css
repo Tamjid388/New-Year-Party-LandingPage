@@ -1,9 +1,277 @@
-
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
 }
-#main{
+/* font-family: "Inter", sans-serif;
+font-family: "Merriweather", serif; */
+body {
+  width: 1600px;
+  height: auto;
+}
+#main {
+  margin-left: 140px;
+  margin-right: 140px;
+  /* background-color: red; */
+
+  height: 600px;
+  width: 1320px;
+  font-family: "Merriweather", serif;
+}
+
+header {
+  height: 600px;
+  width: 1320px;
+  margin-left: 140px;
+  margin-right: 140px;
+
+  background-image: url(assests/images/Banner\ Image.png);
+  margin-top: 50px;
+  background-position: center;
+  background-size: contain;
+}
+/* 65% holiday */
+.holiday {
+  margin-left: 399px;
+  margin-right: 398px;
+
+  width: 802px;
+  height: 806px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.holiday-bg {
+    width: 802.9px;
+    height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.holiday-text {
+  text-align: center;
+}
+.holiday .holiday-h1 {
+    color: rgb(255, 0, 0);
+  margin-bottom: 48px;
+  font-size: 45px;
+  margin-top: 120px;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+font-weight: 700;
+}
+
+.holiday h4 {
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+    
+  }
+  .holiday h2 {
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: 16px;
+   
+  }
+    
+
+.midnight-party {
+  width: 1320px;
+  height: 600px;
+
+  margin-left: 140px;
+  margin-right: 140px;
+  background-image: url(assests/images/Vectorrr.png);
+  background-repeat: no-repeat;
+}
+.midnight-party {
+  color: white;
+  margin-top: 120px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 126px;
+  padding-top: 126px;
+}
+
+.midnight-h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+/* time container */
+.time-container {
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 140px;
+}
+.time-container span {
+  color: rgb(255, 0, 0);
+}
+
+.time-container .text {
+  text-align: center;
+}
+.btn-primary {
+  border-radius: 8px;
+
+  background: rgb(255, 0, 0);
+  padding: 16px 32px 16px 32px;
+  border: none;
+  color: white;
+  margin-top: 48px;
+}
+/* Comming Soon Section */
+.comming-soon {
+  /* border: 2px solid red; */
+
+  width: 1320px;
+  height: 463px;
+  margin-left: 140px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+
+  gap: 10px;
+}
+.comming-soon .sub1 {
+  width: 393px;
+  height: 255px;
+
+}
+.comming-soon .sub1 h3{
+    color: rgb(255, 0, 0);
+    margin-bottom: 16px;
+    font-size: 24px;
+font-weight: 500;
+}
+.comming-soon .sub1 h1{
+    margin-bottom: 22px;
+    font-size: 48px;
+font-weight: 900;
+}
+
+.comming-soon .sub1 p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.comming-soon .sub2 {
+  width: 463px;
+  height: 463px;
+  box-sizing: border-box;
+  border: 15px solid red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: -49px;
+}
+.sub2-bg {
+  width: 364.84px;
+  height: 364.84px;
+  background-image: url(assests/images/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+}
+.comming-soon .sub3 {
+  width: 393px;
+  height: 255px;
+}
+
+.comming-soon .sub3 h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.comming-soon .sub3 p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+/* Holiday SECTION Start here */
+
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    
+    margin-top: 100px;
+
+
+    position: relative;
     margin-left: 140px;
-    margin-right: 140px;
+  
+
+}
+
+.holiay-text{
+    width: 1068px;
+height: 260px;
+    text-align: center;
+    margin: 0 auto;
+}
+.holiay-text h5{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiay-text h1{
+    font-size: 72px;
+font-weight: 900;
+margin-bottom: 28px;
+}
+.holiay-text p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.holiay-text span{
+    color: rgb(255, 0, 0);
+}
+.solid-color{
+   
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.giftbox { 
+    width: 674.82px;
+    height: 577.96px;
+    margin-top: -460px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.grp44{
+    margin-left: 177px;
 }
