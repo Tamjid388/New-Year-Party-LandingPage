@@ -284,9 +284,9 @@ Portfolio SECTION Starts Here */
 .portfolio-container{
     width: 1320px;
     height: 1163px;
-    border: 2px solid black;
+   
     margin-left: 140px;
-    margin-top: 20px;
+    margin-top: 120px;
 
 }
 .portfolio-text-content{
@@ -336,3 +336,63 @@ gap: 24px;
   
     
 }
+
+/* 
+Portfolio SECTION ENDS Here */
+
+
+
+/* 
+FOOTER STARTED */
+footer {
+    background-color:white;
+    padding: 20px 0; 
+    width: 100%;
+    margin-left: 140px;
+    margin-top: 40px;
+
+  }
+  
+  .footer-description {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+    padding: 10px 20px;
+  }
+  
+  .footer-description p,
+  .footer-description a {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  
+  .footer-description a img {
+    margin-left: 10px; 
+    width: 33px;
+    height: 42px;
+  }
+  
+  .footer-nav {
+    text-align: center; /* Center navigation links */
+  }
+  
+  .footer-nav a {
+    color: #333; /* Set text color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Add spacing between navigation links */
+  }
+  
+  .footer-nav a:hover {
+    color: #000; /* Change link color on hover */
+  }
+  
+  .copyright {
+    text-align: center; /* Center copyright text */
+    color: #333; /* Set text color for copyright */
+    font-size: 12px; /* Set font size for copyright */
+    margin-top: 10px; /* Add spacing after navigation */
+  }
+  
