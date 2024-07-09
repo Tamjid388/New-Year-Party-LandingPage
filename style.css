@@ -19,17 +19,73 @@ body {
   width: 1320px;
   font-family: "Merriweather", serif;
 }
+/* navbar */
+.navbar{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 140px;
+width: 1320px;
 
+position: sticky;
+z-index: 20;
+top:0;
+}
+.navbar-brand{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 40px;
+}
+.navbar-menu{
+
+    display: flex;
+  
+
+}
+.navbar-menu li a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #000;
+    font-family: inter;
+    font-weight: 600;
+  
+}
+.navbar-menu li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ............................. */
 header {
   height: 600px;
   width: 1320px;
   margin-left: 140px;
   margin-right: 140px;
 
-  background-image: url(assests/images/Banner\ Image.png);
+  background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+   url(assests/images/Banner\ Image.png);
   margin-top: 50px;
   background-position: center;
   background-size: contain;
+  
 }
 /* 65% holiday */
 .holiday {
